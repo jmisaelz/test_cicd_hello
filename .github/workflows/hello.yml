@@ -1,0 +1,9 @@
+name: Hello World
+on: [pull_request]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-lastest
+    steps:
+        - name: message hello world
+          run: echo "hello world"
